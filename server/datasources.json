@@ -1,7 +1,12 @@
 {
-  "db": {
-    "name": "db",
-    "connector": "memory",
-    "file": "database.json"
+  "mysql": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "loopback-testing",
+    "password": "gKx6MHtYMNWEz2e",
+    "name": "mysql",
+    "user": "loopback-api",
+    "connector": "mysql"
   }
 }
