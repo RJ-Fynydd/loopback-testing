@@ -34,5 +34,13 @@
   "Role": {
     "dataSource": "mysql",
     "public": false
+  },
+  "cat": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "Temperature": {
+    "dataSource": "mysql",
+    "public": true
   }
 }

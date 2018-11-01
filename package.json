@@ -8,6 +8,7 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node .",
+    "updateBD": "node ./server/create-lb-tables.js",
     "posttest": "npm run lint"
   },
   "dependencies": {
